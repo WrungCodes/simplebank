@@ -101,12 +101,3 @@ func TestListAccountEntry(t *testing.T) {
 		require.Equal(t, account.ID, entry.AccountID)
 	}
 }
-
-// func TestListEntriesFails(t *testing.T){
-// 	arg := ListAllEntriesParams{
-// 		Limit:     5,
-// 		Offset:    5,
-// 	}
-
-// 	// entries, err := testQueries.ListAllEntries(context.Background(), arg)
-// }
